@@ -1,0 +1,70 @@
+
+.center{
+  display: flex;
+  align-items: center;
+  text-align: center;
+  margin: auto;
+}
+.container{
+display: flex;
+flex-direction: column;
+align-items: center;
+text-align: center;
+border-width: 5px;
+border-color: rgb(0, 0, 0);
+border-style: solid;
+}
+
+.buttonAddPerson {
+  background-color: #f44336; 
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+.mainscreen{
+  display: flex;
+  flex-direction: row;
+  }
+  
+  .profile{
+    height: 100%;
+    width: 250px;
+    background-color: rgb(191, 136, 255);
+    margin-right: 20px;
+    display: flex;
+    border: 2px solid rgb(36, 36, 36);
+  }
+
+  .p{
+    font-size: 17px;
+    font-family: 'Trebuchet MS', sans-serif;
+  }
+
+  .nameArea{
+    align-items: center;
+    height: 35px;
+    width: 130px;
+    text-align: center;
+    background-color: rgb(212, 175, 247);
+    border-radius: 5px;
+    color: cornsilk;
+    
+  }
+
+  .authInput{
+    height: 40px;
+    width: 20%;
+    font-size: 17px;
+    border-radius: 3px;
+    text-align: center;
+    border: 1px solid #909092;
+    margin: 10px;
+  }
+  .header{
+    font-family: 'Courier New', monospace;
+    font-size: 40px;
+  }

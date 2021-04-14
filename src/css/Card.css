@@ -1,0 +1,73 @@
+.card-container{
+width: 500px;
+height: 500px;
+overflow: hidden;
+text-align: center;
+justify-content: center;
+padding: 25px;
+font-family: "Open Sans";
+border: 3px solid rgb(36, 36, 36);
+margin: 10px;
+transition: transform 0.3s ease-in-out 0s;
+}
+.card-container:hover{
+transform: translate(-4px, -4px); 
+box-shadow: rgb(39 39 39) 4px 4px;
+}
+
+.inputArea{
+    height: 40px;
+    width: 80%;
+    font-size: 17px;
+    border-radius: 3px;
+    text-align: center;
+    border: 1px solid #909092;
+  }
+
+  .addButton{
+    border: 0px;
+    font-size: 15px;
+    height: 40px;
+    width: 50%;
+    background-color: #454bff;
+    color: cornsilk;
+    margin: 5px;
+    border-radius: 5px;
+
+  }
+  .addButton:hover {
+    background-color:#007bff; 
+   
+  }
+  .deleteButton{
+    align-items: center;
+    text-align: center;
+    border: none;
+    margin: 5px;
+    position: relative;
+    inset: -15px 225px ;
+    background:url(deleteicon.png) no-repeat ;
+    background-size: 45px;
+    width: 50px;
+    height: 50px;
+   
+  }
+  .titleArea{
+    display: flex;
+    flex-direction: row;
+  }
+
+.titleStyle{
+    font-family: 'Courier New', monospace;
+    color: crimson;
+    font-size: 25px;
+}
+.category{
+  color: #454bff;
+  font-size: 30px ;
+  
+}
+.checkboxStyle{
+  height: 30px;
+    width: 10%;
+}
